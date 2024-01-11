@@ -1,0 +1,22 @@
+:root {
+  --box-dim: 150px;
+}
+
+.main-title {
+  font-size: 5rem;
+}
+
+.box {
+  width: var(--box-dim);
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
