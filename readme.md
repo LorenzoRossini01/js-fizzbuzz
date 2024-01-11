@@ -28,3 +28,12 @@ Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda ch
 Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot fornito in consegna.
 
 ### Svolgimento
+
+1. creo un ciclo FOR che conti da 1 a 100
+   1. stampo i valori di `i` in console
+   2. SE `i` è multiplo di 3 && `i` è multiplo di 5
+      - cambio il contenuto del messaggio in Fizzbuzz
+      - SE `i` è solo multiplo di 3
+        - cambio il contenuto del messaggio in Fizz
+      - SE ALTRIMENTI `i` è solo multiplo di 5
+        - cambio il contenuto del messaggio in Buzz
